@@ -1,0 +1,58 @@
+/*
+    Etiquetas
+*/
+body {
+    background: gray;
+}
+div {
+}
+
+a {
+
+}
+/*
+    Referncia a id="botones"
+*/
+#botones {
+    background-color: pink;
+}
+
+
+/*
+    Referncia a class="rojo"
+*/
+.rojo {
+    background-color: #777;
+    color: white;
+}
+
+/*
+    Referncia a class="ejemplo1 rojo"
+*/
+.ejemplo1.rojo {
+     background-color: blue;
+     color: red;
+}
+
+.button {
+    border: solid 2px yellow;
+}
+
+/*
+    Referncia a class="button" adentro de class="align-right"
+    ó
+    Referncia a class="align-right" con class="button" adentro
+*/
+.align-right .button {
+    border: solid 2px black;
+}
+
+
+/*
+    Referncia a class="button" adentro de class="align-right"
+    ó
+    Referncia a class="align-right" con class="button" adentro
+*/
+.align-center > .button {
+    border: solid 2px cyan;
+}

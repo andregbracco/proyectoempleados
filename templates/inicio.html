@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block titulo %} Pagina de inicio de sistema empleados{% endblock titulo %}
+
+{% block body %}
+
+{% include 'includes/header.html' %}
+<!-- empezó imagen-->
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Anterior</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Siguiente</span>&#9654;&#xFE0E;</button>
+      </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src={% static 'img/unnamed.jpg' %} alt="Space">
+            <figcaption class="orbit-caption">Chimu falso</figcaption>
+          </figure>
+        </li>
+        <li class="orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src={% static 'img/chimu.jpg' %} alt="Space">
+            <figcaption class="orbit-caption">Chimu lindo hermoso él</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </div>
+  </div>
+<!-- terminó imagen-->
+<!-- bloque de bienvenida-->
+<div class="grid-x align-center">
+  <h1 class="cell large-8" style="font-size: 20px; text-align: center;">Bienvenidos al Sistema de Registro de Empleados</h1>
+  <div class="cell large-7">
+    <div class="callout success">
+      <h5>Registra y controla empleados</h5>
+      <p>chimu es hermoso/ chimu es hermoso</p>
+      <p>chimu es hermoso/ chimu es hermoso</p>
+      <p>chimu es hermoso/ chimu es hermoso</p>
+      <p>chimu es hermoso/ chimu es hermoso</p>
+      <a href="#">Ver fotos de Chimu siendo lindo</a>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- terminó bloque de bienvenida-->
+
+
+{% endblock body %}

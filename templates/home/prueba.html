@@ -1,0 +1,56 @@
+{% load static %}
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/foundation.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+
+</head>
+<body>
+    <h2 class="ejemplo1 rojo">Hola Mundo desde los templates</h2>
+    <h2 class="ejemplo2 rojo">Hola Mundo desde los templates</h2>
+
+    <a href="about.html" class="button">Learn More</a>
+    <a href="#features" class="button">View All Features</a>
+
+    <!-- Buttons (actions) -->
+    <button type="button" class="success button">Save</button>
+    <button type="button" class="alert button">Delete</button>
+
+    <article id="botones" class="docs-component">
+        <div class="button-group align-center">
+            <a class="button">One</a>
+            <div>
+                <a class="button">Two</a>
+                <a class="button">Three</a>
+            </div>
+        </div>
+
+        <div class="button-group align-right">
+            <a class="button">One</a>
+            <a class="button">Two</a>
+            <a class="button">Three</a>
+        </div>
+
+
+        <div class="button-group align-spaced">
+            <a class="button">One</a>
+            <a class="button">Two</a>
+            <a class="button">Three</a>
+        </div>
+
+        <div class="button-group align-justify">
+            <a class="button">One</a>
+            <a class="button">Two</a>
+            <a class="button">Three</a>
+        </div>
+
+    </article>
+
+</body>
+
+</html>
+
+

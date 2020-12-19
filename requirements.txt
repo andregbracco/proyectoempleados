@@ -1,7 +1,6 @@
 asgiref==3.2.10
 dj-database-url==0.5.0
 Django==3.1
-dj-database-url
 django-ckeditor==5.9.0
 django-heroku
 django-js-asset==1.2.2
